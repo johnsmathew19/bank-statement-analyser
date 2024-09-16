@@ -1,0 +1,61 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .file-upload-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+
+  .file-upload-box {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center contents vertically */
+    align-items: center; /* Center contents horizontally */
+  }
+
+  .upload-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .upload-button {
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .upload-button:hover {
+    background-color: #45a049;
+  }
+
+  p {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .progress-bar {
+    width: 100%;
+    background-color: #eee;
+    height: 5px;
+    margin-top: 15px; /* Adds space between the file input and the progress bar */
+  }
+
+  .progress-bar-fill {
+    height: 100%;
+    background-color: #4caf50;
+  }
